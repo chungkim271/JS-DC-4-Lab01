@@ -81,7 +81,7 @@ function setUpPlayers(err, result) {
  	// set a limit for how long this game can be played 
  	//
 
- 	if (roundIndex > 100000) {
+ 	if (roundIndex > 1000000000) {
  	
  		console.log('This game is going on too long!')
  		console.log("Let's call it a night. Good night!")
@@ -150,9 +150,11 @@ function setUpPlayers(err, result) {
  		console.log(' ')
  		console.log('Now ' + card1.owner.name + ' has ' +
  			card1.owner.hand.map(function(x) {return x.title}).join(', '))
+ 		console.log(card1.owner.name + ' has ' + card1.owner.hand.length + ' cards')
  		console.log(' ')
  		console.log('Now ' + card2.owner.name + ' has ' +
  			card2.owner.hand.map(function(x) {return x.title}).join(', '))
+ 		console.log(card2.owner.name + ' has ' + card2.owner.hand.length + ' cards')
 
  	} else if (card1.score < card2.score) { 
 
@@ -164,9 +166,11 @@ function setUpPlayers(err, result) {
  		console.log(' ')
  		console.log('Now ' + card1.owner.name + ' has ' +
  			card1.owner.hand.map(function(x) {return x.title}).join(', '))
+ 		console.log(card1.owner.name + ' has ' + card1.owner.hand.length + ' cards')
  		console.log(' ')
  		console.log('Now ' + card2.owner.name + ' has ' +
  			card2.owner.hand.map(function(x) {return x.title}).join(', '))
+ 		console.log(card2.owner.name + ' has ' + card2.owner.hand.length + ' cards')
 
  	} else {
  	
