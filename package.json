@@ -1,22 +1,24 @@
 {
-  "name": "js-dc-4-lab01",
+  "name": "JS-DC-4-Lab01",
   "version": "1.0.0",
-  "description": "Game of War",
+  "description": "You have been contracted to build a command line game that models the card game `War`.",
   "main": "index.js",
+  "dependencies": {
+    "prompt": "^1.0.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ga-students/JS-DC-4-Lab01.git"
+    "url": "git+https://github.com/chungkim271/JS-DC-4-Lab01.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ga-students/JS-DC-4-Lab01/issues"
+    "url": "https://github.com/chungkim271/JS-DC-4-Lab01/issues"
   },
-  "homepage": "https://github.com/ga-students/JS-DC-4-Lab01#readme",
-  "dependencies": {
-    "prompt": "^1.0.0"
-  }
+  "homepage": "https://github.com/chungkim271/JS-DC-4-Lab01#readme"
 }
